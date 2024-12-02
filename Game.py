@@ -7,7 +7,7 @@ pygame.init()
 WIDTH, HEIGHT = 400, 400  # Grid size
 GRID_SIZE = 10            # Number of rows/columns
 CELL_SIZE = WIDTH // GRID_SIZE
-FPS = 30
+FPS = 60
 
 # Colors
 WHITE = (255, 255, 255)
@@ -27,7 +27,7 @@ def main_menu():
     font = pygame.font.SysFont(None, 48)
 
     # Menu options
-    options = ["Easy (8x8, 10 Mines)", "Hard (16x16, 40 Mines)", "Expert (24x24, 99 Mines)"]
+    options = ["Easy (8x8, 10 Mines)", "Medium (16x16, 40 Mines)", "Hard (24x24, 99 Mines)"]
     buttons = []
     y_offset = 150
 
@@ -54,9 +54,9 @@ def main_menu():
                     if rect.collidepoint(x, y):
                         if "Easy" in option:
                             return 8, 10
-                        elif "Hard" in option:
+                        elif "Medium" in option:
                             return 16, 40
-                        elif "Expert" in option:
+                        elif "Hard" in option:
                             return 24, 99
 
 
@@ -84,7 +84,7 @@ def create_grid(size, num_mines):
 def draw_grid(screen, grid):
     for r, row in enumerate(grid):
         for c, cell in enumerate(row):
-            x, y = c * CELL_SIZE, r * CELL_SIZE
+            x, y = c * CELL_SIZE, r * CELL_SIZE + 50  # Offset by 50 for UI
             pygame.draw.rect(screen, GRAY if cell["revealed"] else WHITE, (x, y, CELL_SIZE, CELL_SIZE))
             pygame.draw.rect(screen, BLACK, (x, y, CELL_SIZE, CELL_SIZE), 1)
 
@@ -95,10 +95,40 @@ def draw_grid(screen, grid):
                     font = pygame.font.SysFont(None, 36)
                     text = font.render(str(cell["number"]), True, BLACK)
                     screen.blit(text, (x + 10, y + 5))
+            elif cell["flagged"]:
+                pygame.draw.polygon(screen, RED, [
+                    (x + CELL_SIZE // 4, y + CELL_SIZE // 4),
+                    (x + 3 * CELL_SIZE // 4, y + CELL_SIZE // 2),
+                    (x + CELL_SIZE // 4, y + 3 * CELL_SIZE // 4)
+                ])
 
+def game_ui(screen, timer, flagged_count, total_mines):
+    font = pygame.font.SysFont(None, 36)
+
+    # Draw timer
+    timer_text = font.render(f"Time: {timer}s", True, BLACK)
+    screen.blit(timer_text, (WIDTH - 150, 10))
+
+    # Draw mine counter
+    mines_text = font.render(f"Flags: {flagged_count}/{total_mines}", True, BLACK)
+    screen.blit(mines_text, (10, 10))
+
+    # Draw menu button
+    menu_text = font.render("Menu", True, BLACK)
+    menu_rect = menu_text.get_rect(center=(WIDTH // 2, 30))
+    pygame.draw.rect(screen, GRAY, menu_rect.inflate(20, 10))
+    screen.blit(menu_text, menu_rect)
+
+    return menu_rect
 def reveal_cell(grid, row, col):
-    if grid[row][col]["revealed"] or grid[row][col]["flagged"]:
+    try:
+        if grid[row][col]["revealed"] or grid[row][col]["flagged"]:
+            return
+    except IndexError:
+        print(f"Invalid access: row={row}, col={col}")
         return
+
+
 
     grid[row][col]["revealed"] = True
 
@@ -123,38 +153,7 @@ def handle_click(grid, x, y, game_over):
         reveal_cell(grid, row, col)
         return False  # Continue playing
 
-def main():
-    running = True
-    while running:
-        # Display menu and get difficulty
-        grid_size, num_mines = main_menu()
 
-        # Adjust screen size for larger grids
-        global WIDTH, HEIGHT, CELL_SIZE
-        CELL_SIZE = 30
-        WIDTH, HEIGHT = grid_size * CELL_SIZE, grid_size * CELL_SIZE
-        pygame.display.set_mode((WIDTH, HEIGHT))
-
-        # Initialize game
-        grid = create_grid(grid_size, num_mines)
-        game_over = False
-
-        while True:
-            screen.fill(WHITE)
-            draw_grid(screen, grid)
-
-            for event in pygame.event.get():
-                if event.type == pygame.QUIT:
-                    running = False
-                    return
-                elif event.type == pygame.MOUSEBUTTONDOWN and not game_over:
-                    x, y = event.pos
-                    game_over = handle_click(grid, x, y, game_over)
-                    if game_over:
-                        reveal_all_mines(grid)
-
-            pygame.display.flip()
-            clock.tick(FPS)
 def reveal_all_mines(grid):
     for row in grid:
         for cell in row:
@@ -171,26 +170,52 @@ def main():
         # Adjust screen size for larger grids
         global WIDTH, HEIGHT, CELL_SIZE
         CELL_SIZE = 30
-        WIDTH, HEIGHT = grid_size * CELL_SIZE, grid_size * CELL_SIZE
+        WIDTH, HEIGHT = grid_size * CELL_SIZE, grid_size * CELL_SIZE + 50  # Extra space for UI
         pygame.display.set_mode((WIDTH, HEIGHT))
 
         # Initialize game
         grid = create_grid(grid_size, num_mines)
         game_over = False
+        start_time = pygame.time.get_ticks()  # Track start time
+        flagged_count = 0
 
         while True:
             screen.fill(WHITE)
+
+            # Calculate elapsed time
+            elapsed_time = (pygame.time.get_ticks() - start_time) // 1000
+
+            # Draw grid and UI
             draw_grid(screen, grid)
+            menu_rect = game_ui(screen, elapsed_time, flagged_count, num_mines)
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     running = False
                     return
-                elif event.type == pygame.MOUSEBUTTONDOWN and not game_over:
+                elif event.type == pygame.MOUSEBUTTONDOWN:
                     x, y = event.pos
-                    game_over = handle_click(grid, x, y, game_over)
-                    if game_over:
-                        reveal_all_mines(grid)
+
+                    # Handle menu button
+                    if menu_rect.collidepoint(x, y):
+                        return  # Return to main menu
+
+                    # Game grid clicks
+                    if y > 50 and not game_over:  # Ensure clicks are below the UI
+                        col, row = x // CELL_SIZE, (y - 50) // CELL_SIZE
+                        if event.button == 1:  # Left click
+                            game_over = handle_click(grid, x, y - 50, game_over)
+                            if game_over:
+                                reveal_all_mines(grid)
+                        elif event.button == 3:  # Right click for flagging
+                            cell = grid[row][col]
+                            if not cell["revealed"]:
+                                if cell["flagged"]:
+                                    cell["flagged"] = False
+                                    flagged_count -= 1
+                                else:
+                                    cell["flagged"] = True
+                                    flagged_count += 1
 
             pygame.display.flip()
             clock.tick(FPS)
