@@ -163,7 +163,7 @@ def handle_click(grid, x, y, game_over):
     if game_over:
         return False  # Game already over, no further actions
 
-    col, row = x // CELL_SIZE, y // CELL_SIZE  # Convert mouse position to grid position
+    col, row = (x-(WIDTH - (len(grid[0]) * CELL_SIZE)) // 2) // CELL_SIZE, y // CELL_SIZE  # Convert mouse position to grid position and adjust for vertical UI offset
     cell = grid[row][col]
 
     if cell["mine"]:
@@ -237,6 +237,8 @@ def main():
                                 game_over = handle_click(grid, x, y - 50, game_over)
                                 if game_over:
                                     reveal_all_mines(grid)  # Reveal all mines if game is over
+                                    in_game = False # exit loop for the ga
+                                    break
                             elif event.button == 3:  # Right click to flag a cell
                                 cell = grid[row][col]
                                 if not cell["revealed"]:
