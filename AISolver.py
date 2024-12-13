@@ -48,44 +48,6 @@ class AISolver:
             return suspected_mines
         return []
     
-    
-    def identify_mines_from_cell(self, row, col):
-        """
-        Uses Z3 solver to deduce the positions of mines based on the selected cell.
-
-        Args:
-        row (int): Row index of the clicked cell.
-        col (int): Column index of the clicked cell.
-
-        Returns:
-        list of tuples: Coordinates of cells suspected to contain mines.
-        """
-        solver = Solver()
-        cells = [[Bool(f"cell_{r}_{c}") for c in range(self.cols)] for r in range(self.rows)]
-        cell_data = self.grid[row][col]
-
-        if cell_data["revealed"] and cell_data["number"] > 0:
-            adjacent_cells = self._get_adjacent_cells(row, col)
-
-            # Constraint: The sum of adjacent mines must match the cell's number
-            adjacent_mines = [cells[ar][ac] for ar, ac in adjacent_cells]
-            solver.add(Sum([If(mine, 1, 0) for mine in adjacent_mines]) == cell_data["number"])
-
-        # Add constraints for revealed or flagged cells
-        for r in range(self.rows):
-            for c in range(self.cols):
-                if self.grid[r][c]["flagged"]:
-                    solver.add(cells[r][c])  # Flagged cells must be mines
-                if self.grid[r][c]["revealed"] and not self.grid[r][c]["mine"]:
-                    solver.add(Not(cells[r][c]))  # Revealed non-mine cells cannot be mines
-
-        # Solve the constraints
-        if solver.check() == sat:
-            model = solver.model()
-            suspected_mines = [(r, c) for r in range(self.rows) for c in range(self.cols) if is_true(model.evaluate(cells[r][c]))]
-            return suspected_mines
-        return []
-    
     def _get_adjacent_cells(self, row, col):
         """
         Gets the coordinates of adjacent cells for a given cell.
