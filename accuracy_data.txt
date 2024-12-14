@@ -1,0 +1,879 @@
+Accuracy: 0.0000
+GameData
+Accuracy: 0.6667
+Accuracy: 0.6667
+Accuracy: 0.5714
+GameData
+Accuracy: 0.6000
+Accuracy: 0.6364
+Accuracy: 0.6471
+Accuracy: 0.6522
+Accuracy: 0.6667
+Accuracy: 0.6757
+Accuracy: 0.6667
+Accuracy: 0.6604
+Accuracy: 0.6721
+Accuracy: 0.6857
+Accuracy: 0.7179
+Accuracy: 0.7442
+Accuracy: 0.7660
+Accuracy: 0.7843
+Accuracy: 0.8000
+Accuracy: 0.8151
+Accuracy: 0.8281
+Accuracy: 0.8394
+Accuracy: 0.8493
+Accuracy: 0.8590
+Accuracy: 0.8675
+Accuracy: 0.8750
+Accuracy: 0.8817
+Accuracy: 0.8878
+GameData
+Accuracy: 1.0000
+Accuracy: 0.8571
+Accuracy: 0.7500
+Accuracy: 0.7059
+Accuracy: 0.6818
+Accuracy: 0.6667
+Accuracy: 0.6562
+Accuracy: 0.6486
+Accuracy: 0.6429
+Accuracy: 0.6667
+Accuracy: 0.7167
+Accuracy: 0.7246
+Accuracy: 0.7308
+Accuracy: 0.7586
+Accuracy: 0.7812
+Accuracy: 0.8000
+Accuracy: 0.8158
+Accuracy: 0.8293
+Accuracy: 0.8409
+Accuracy: 0.8451
+Accuracy: 0.8553
+Accuracy: 0.8580
+Accuracy: 0.8580
+GameData
+Accuracy: 0.8750
+Accuracy: 0.9412
+Accuracy: 0.9615
+Accuracy: 0.9714
+Accuracy: 0.9773
+Accuracy: 0.9811
+Accuracy: 0.9841
+Accuracy: 0.9863
+Accuracy: 0.9880
+Accuracy: 0.9892
+Accuracy: 0.9903
+Accuracy: 0.9912
+Accuracy: 0.9919
+GameData
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 0.3333
+Accuracy Per Update: 0.2000
+GameData
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 0.7500
+Accuracy Per Update: 0.4286
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.5000
+GameData
+Accuracy Per Update: 0.6667
+Accuracy Per Update: 0.5714
+Accuracy Per Update: 0.6471
+Accuracy Per Update: 0.7037
+Accuracy Per Update: 0.7368
+Accuracy Per Update: 0.7551
+Accuracy Per Update: 0.7966
+Accuracy Per Update: 0.8261
+Accuracy Per Update: 0.8481
+Accuracy Per Update: 0.8652
+Accuracy Per Update: 0.8788
+Accuracy Per Update: 0.8899
+Accuracy Per Update: 0.8992
+Accuracy Per Update: 0.9070
+Accuracy Per Update: 0.9137
+Accuracy Per Update: 0.9195
+Accuracy Per Update: 0.9245
+GameData
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 0.9000
+Accuracy Per Update: 0.7368
+Accuracy Per Update: 0.7241
+Accuracy Per Update: 0.7179
+Accuracy Per Update: 0.6667
+Accuracy Per Update: 0.6250
+Accuracy Per Update: 0.6400
+Accuracy Per Update: 0.6322
+Accuracy Per Update: 0.6162
+Accuracy Per Update: 0.6126
+Accuracy Per Update: 0.6098
+Accuracy Per Update: 0.6074
+Accuracy Per Update: 0.5857
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+GameData
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 0.9922
+Accuracy Per Update: 0.9845
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 0.8333
+Accuracy Per Update: 0.8000
+Accuracy Per Update: 0.7647
+Accuracy Per Update: 0.7500
+Accuracy Per Update: 0.7667
+Accuracy Per Update: 0.8056
+Accuracy Per Update: 0.8333
+Accuracy Per Update: 0.8163
+Accuracy Per Update: 0.8393
+Accuracy Per Update: 0.8281
+Accuracy Per Update: 0.8451
+Accuracy Per Update: 0.8354
+Accuracy Per Update: 0.8354
+GameData
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.5833
+Accuracy Per Update: 0.6667
+Accuracy Per Update: 0.6800
+Accuracy Per Update: 0.6562
+Accuracy Per Update: 0.6750
+Accuracy Per Update: 0.6735
+Accuracy Per Update: 0.6552
+Accuracy Per Update: 0.6032
+GameData
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 0.9667
+Accuracy Per Update: 0.9750
+Accuracy Per Update: 0.9800
+Accuracy Per Update: 0.9833
+Accuracy Per Update: 0.9857
+Accuracy Per Update: 0.9875
+Accuracy Per Update: 0.9889
+Accuracy Per Update: 0.9900
+Accuracy Per Update: 0.9909
+Accuracy Per Update: 0.9917
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.7500
+Accuracy Per Update: 0.8750
+Accuracy Per Update: 0.7857
+Accuracy Per Update: 0.8421
+Accuracy Per Update: 0.8750
+Accuracy Per Update: 0.8966
+Accuracy Per Update: 0.9143
+Accuracy Per Update: 0.9268
+Accuracy Per Update: 0.9362
+Accuracy Per Update: 0.9444
+Accuracy Per Update: 0.9508
+Accuracy Per Update: 0.9559
+Accuracy Per Update: 0.9600
+Accuracy Per Update: 0.9639
+Accuracy Per Update: 0.9355
+Accuracy Per Update: 0.9314
+Accuracy Per Update: 0.9369
+Accuracy Per Update: 0.9333
+Accuracy Per Update: 0.9302
+Accuracy Per Update: 0.9275
+Accuracy Per Update: 0.9252
+Accuracy Per Update: 0.9236
+Accuracy Per Update: 0.9222
+Accuracy Per Update: 0.9153
+Accuracy Per Update: 0.9153
+GameData
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.5000
+GameData
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.4000
+Accuracy Per Update: 0.2857
+GameData
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.5000
+GameData
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.7500
+Accuracy Per Update: 0.6667
+Accuracy Per Update: 0.7222
+Accuracy Per Update: 0.7667
+Accuracy Per Update: 0.7619
+Accuracy Per Update: 0.8113
+Accuracy Per Update: 0.8154
+Accuracy Per Update: 0.8182
+Accuracy Per Update: 0.8409
+Accuracy Per Update: 0.8586
+Accuracy Per Update: 0.8559
+Accuracy Per Update: 0.8689
+Accuracy Per Update: 0.8657
+Accuracy Per Update: 0.8759
+Accuracy Per Update: 0.8790
+Accuracy Per Update: 0.8765
+Accuracy Per Update: 0.8798
+Accuracy Per Update: 0.8782
+Accuracy Per Update: 0.8768
+Accuracy Per Update: 0.8839
+Accuracy Per Update: 0.8824
+Accuracy Per Update: 0.8884
+Accuracy Per Update: 0.8868
+Accuracy Per Update: 0.8936
+Accuracy Per Update: 0.8997
+Accuracy Per Update: 0.9051
+Accuracy Per Update: 0.9039
+Accuracy Per Update: 0.9029
+Accuracy Per Update: 0.9019
+Accuracy Per Update: 0.9041
+Accuracy Per Update: 0.9018
+GameData
+Accuracy Per Update: 0.7143
+Accuracy Per Update: 0.7143
+Accuracy Per Update: 0.7143
+Accuracy Per Update: 0.7143
+Accuracy Per Update: 0.7143
+Accuracy Per Update: 0.7143
+Accuracy Per Update: 0.7143
+Accuracy Per Update: 0.7143
+Accuracy Per Update: 0.7143
+Accuracy Per Update: 0.7234
+Accuracy Per Update: 0.7134
+Accuracy Per Update: 0.7209
+Accuracy Per Update: 0.7302
+Accuracy Per Update: 0.7343
+Accuracy Per Update: 0.7136
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.6000
+Accuracy Per Update: 0.4286
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.1667
+Accuracy Per Update: 0.3750
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.7222
+Accuracy Per Update: 0.7692
+Accuracy Per Update: 0.8235
+Accuracy Per Update: 0.8571
+Accuracy Per Update: 0.8600
+Accuracy Per Update: 0.8793
+Accuracy Per Update: 0.8529
+Accuracy Per Update: 0.8333
+Accuracy Per Update: 0.8202
+Accuracy Per Update: 0.8283
+Accuracy Per Update: 0.8257
+Accuracy Per Update: 0.8319
+Accuracy Per Update: 0.8295
+Accuracy Per Update: 0.8429
+Accuracy Per Update: 0.8477
+Accuracy Per Update: 0.8519
+Accuracy Per Update: 0.8506
+Accuracy Per Update: 0.8495
+Accuracy Per Update: 0.8586
+Accuracy Per Update: 0.8578
+Accuracy Per Update: 0.8533
+Accuracy Per Update: 0.8529
+Accuracy Per Update: 0.8566
+Accuracy Per Update: 0.8604
+Accuracy Per Update: 0.8602
+Accuracy Per Update: 0.8571
+Accuracy Per Update: 0.8553
+Accuracy Per Update: 0.8444
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.6667
+Accuracy Per Update: 0.6154
+Accuracy Per Update: 0.7368
+Accuracy Per Update: 0.7600
+Accuracy Per Update: 0.7742
+Accuracy Per Update: 0.7838
+Accuracy Per Update: 0.7907
+Accuracy Per Update: 0.7959
+Accuracy Per Update: 0.8000
+Accuracy Per Update: 0.7857
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.1429
+Accuracy Per Update: 0.1111
+GameData
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.5714
+Accuracy Per Update: 0.6667
+Accuracy Per Update: 0.7059
+Accuracy Per Update: 0.7727
+Accuracy Per Update: 0.8148
+Accuracy Per Update: 0.8182
+Accuracy Per Update: 0.7949
+Accuracy Per Update: 0.8222
+Accuracy Per Update: 0.8077
+Accuracy Per Update: 0.8000
+Accuracy Per Update: 0.7941
+Accuracy Per Update: 0.7922
+Accuracy Per Update: 0.7816
+Accuracy Per Update: 0.7755
+Accuracy Per Update: 0.7525
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.3333
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+GameData
+Accuracy Per Update: 0.3333
+Accuracy Per Update: 0.3333
+Accuracy Per Update: 0.2500
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.7143
+Accuracy Per Update: 0.7692
+Accuracy Per Update: 0.8500
+Accuracy Per Update: 0.8214
+Accuracy Per Update: 0.8372
+Accuracy Per Update: 0.8596
+Accuracy Per Update: 0.8611
+Accuracy Per Update: 0.8876
+Accuracy Per Update: 0.9057
+Accuracy Per Update: 0.9187
+Accuracy Per Update: 0.9286
+Accuracy Per Update: 0.9363
+Accuracy Per Update: 0.9310
+Accuracy Per Update: 0.9267
+Accuracy Per Update: 0.9327
+Accuracy Per Update: 0.9378
+Accuracy Per Update: 0.9421
+Accuracy Per Update: 0.9459
+Accuracy Per Update: 0.9493
+Accuracy Per Update: 0.9522
+Accuracy Per Update: 0.9548
+Accuracy Per Update: 0.9572
+Accuracy Per Update: 0.9565
+Accuracy Per Update: 0.9587
+Accuracy Per Update: 0.9606
+Accuracy Per Update: 0.9624
+Accuracy Per Update: 0.9640
+Accuracy Per Update: 0.9655
+Accuracy Per Update: 0.9670
+Accuracy Per Update: 0.9641
+Accuracy Per Update: 0.9615
+Accuracy Per Update: 0.9630
+Accuracy Per Update: 0.9606
+Accuracy Per Update: 0.9585
+Accuracy Per Update: 0.9565
+Accuracy Per Update: 0.9565
+Accuracy Per Update: 0.9581
+Accuracy Per Update: 0.9581
+Accuracy Per Update: 0.9595
+Accuracy Per Update: 0.9609
+Accuracy Per Update: 0.9621
+Accuracy Per Update: 0.9633
+Accuracy Per Update: 0.9645
+Accuracy Per Update: 0.9656
+Accuracy Per Update: 0.9667
+Accuracy Per Update: 0.9677
+Accuracy Per Update: 0.9686
+Accuracy Per Update: 0.9696
+Accuracy Per Update: 0.9705
+Accuracy Per Update: 0.9713
+Accuracy Per Update: 0.9721
+Accuracy Per Update: 0.9729
+Accuracy Per Update: 0.9737
+Accuracy Per Update: 0.9744
+Accuracy Per Update: 0.9750
+Accuracy Per Update: 0.9757
+Accuracy Per Update: 0.9763
+Accuracy Per Update: 0.9768
+Accuracy Per Update: 0.9774
+Accuracy Per Update: 0.9779
+Accuracy Per Update: 0.9784
+Accuracy Per Update: 0.9789
+Accuracy Per Update: 0.9793
+Accuracy Per Update: 0.9797
+Accuracy Per Update: 0.9794
+Accuracy Per Update: 0.9784
+Accuracy Per Update: 0.9770
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.2500
+Accuracy Per Update: 0.1667
+GameData
+Accuracy Per Update: 0.3333
+Accuracy Per Update: 0.2000
+GameData
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 0.9200
+Accuracy Per Update: 0.8947
+Accuracy Per Update: 0.9200
+Accuracy Per Update: 0.9048
+Accuracy Per Update: 0.8947
+Accuracy Per Update: 0.9091
+Accuracy Per Update: 0.8922
+Accuracy Per Update: 0.8879
+Accuracy Per Update: 0.8846
+Accuracy Per Update: 0.8690
+Accuracy Per Update: 0.8514
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.3333
+Accuracy Per Update: 0.2727
+Accuracy Per Update: 0.4800
+Accuracy Per Update: 0.5128
+Accuracy Per Update: 0.5370
+Accuracy Per Update: 0.5362
+Accuracy Per Update: 0.5714
+Accuracy Per Update: 0.5816
+Accuracy Per Update: 0.5982
+Accuracy Per Update: 0.6111
+Accuracy Per Update: 0.6268
+Accuracy Per Update: 0.6392
+Accuracy Per Update: 0.6437
+Accuracy Per Update: 0.6526
+Accuracy Per Update: 0.6505
+Accuracy Per Update: 0.6607
+Accuracy Per Update: 0.6653
+Accuracy Per Update: 0.6731
+Accuracy Per Update: 0.6763
+Accuracy Per Update: 0.6879
+Accuracy Per Update: 0.6918
+Accuracy Per Update: 0.6923
+Accuracy Per Update: 0.6917
+Accuracy Per Update: 0.6822
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.2500
+Accuracy Per Update: 0.1667
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.6667
+Accuracy Per Update: 0.4444
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.5714
+Accuracy Per Update: 0.5455
+Accuracy Per Update: 0.5333
+Accuracy Per Update: 0.5333
+GameData
+Accuracy Per Update: 0.6667
+Accuracy Per Update: 0.3333
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.1250
+Accuracy Per Update: 0.0833
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.2222
+Accuracy Per Update: 0.3571
+Accuracy Per Update: 0.4348
+Accuracy Per Update: 0.4412
+Accuracy Per Update: 0.4773
+Accuracy Per Update: 0.5556
+Accuracy Per Update: 0.5909
+Accuracy Per Update: 0.6184
+Accuracy Per Update: 0.6250
+Accuracy Per Update: 0.6364
+Accuracy Per Update: 0.6514
+Accuracy Per Update: 0.6639
+Accuracy Per Update: 0.6718
+Accuracy Per Update: 0.6736
+Accuracy Per Update: 0.6582
+Accuracy Per Update: 0.6420
+GameData
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.6667
+Accuracy Per Update: 0.4286
+Accuracy Per Update: 0.3125
+Accuracy Per Update: 0.2273
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.6667
+Accuracy Per Update: 0.8889
+Accuracy Per Update: 0.9333
+Accuracy Per Update: 0.9524
+Accuracy Per Update: 0.8929
+Accuracy Per Update: 0.8333
+GameData
+Accuracy Per Update: 0.2500
+Accuracy Per Update: 0.1667
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.3333
+Accuracy Per Update: 0.5833
+Accuracy Per Update: 0.6190
+Accuracy Per Update: 0.5909
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.2000
+Accuracy Per Update: 0.1250
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.3333
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.6667
+Accuracy Per Update: 0.7500
+Accuracy Per Update: 0.8000
+Accuracy Per Update: 0.8421
+Accuracy Per Update: 0.8000
+Accuracy Per Update: 0.7742
+Accuracy Per Update: 0.7273
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.7500
+Accuracy Per Update: 0.8750
+Accuracy Per Update: 0.9167
+Accuracy Per Update: 0.8857
+Accuracy Per Update: 0.8696
+Accuracy Per Update: 0.8596
+Accuracy Per Update: 0.8529
+Accuracy Per Update: 0.8375
+Accuracy Per Update: 0.8172
+Accuracy Per Update: 0.7917
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.6667
+Accuracy Per Update: 0.4000
+GameData
+Accuracy Per Update: 0.3333
+Accuracy Per Update: 0.2000
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.4286
+Accuracy Per Update: 0.3000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.7692
+Accuracy Per Update: 0.7407
+Accuracy Per Update: 0.7317
+Accuracy Per Update: 0.7091
+Accuracy Per Update: 0.6957
+Accuracy Per Update: 0.6988
+Accuracy Per Update: 0.7396
+Accuracy Per Update: 0.7706
+Accuracy Per Update: 0.7951
+Accuracy Per Update: 0.8148
+Accuracy Per Update: 0.8311
+Accuracy Per Update: 0.8385
+Accuracy Per Update: 0.8506
+Accuracy Per Update: 0.8564
+Accuracy Per Update: 0.8670
+Accuracy Per Update: 0.8676
+Accuracy Per Update: 0.8638
+Accuracy Per Update: 0.8680
+Accuracy Per Update: 0.8722
+Accuracy Per Update: 0.8759
+Accuracy Per Update: 0.8729
+Accuracy Per Update: 0.8642
+GameData
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.4000
+Accuracy Per Update: 0.4444
+Accuracy Per Update: 0.3636
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 0.7500
+Accuracy Per Update: 0.7500
+Accuracy Per Update: 0.7222
+Accuracy Per Update: 0.7500
+Accuracy Per Update: 0.7632
+Accuracy Per Update: 0.7755
+Accuracy Per Update: 0.7377
+Accuracy Per Update: 0.6923
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.8182
+Accuracy Per Update: 0.8400
+Accuracy Per Update: 0.8205
+Accuracy Per Update: 0.8113
+Accuracy Per Update: 0.8209
+Accuracy Per Update: 0.8148
+Accuracy Per Update: 0.8211
+Accuracy Per Update: 0.8091
+Accuracy Per Update: 0.8160
+Accuracy Per Update: 0.8014
+Accuracy Per Update: 0.7740
+GameData
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 0.9286
+Accuracy Per Update: 0.9048
+Accuracy Per Update: 0.8966
+Accuracy Per Update: 0.8421
+Accuracy Per Update: 0.8298
+Accuracy Per Update: 0.8364
+Accuracy Per Update: 0.8571
+Accuracy Per Update: 0.8732
+Accuracy Per Update: 0.8734
+Accuracy Per Update: 0.8736
+Accuracy Per Update: 0.8842
+Accuracy Per Update: 0.8835
+Accuracy Per Update: 0.8938
+Accuracy Per Update: 0.8943
+Accuracy Per Update: 0.9023
+Accuracy Per Update: 0.8958
+Accuracy Per Update: 0.9026
+Accuracy Per Update: 0.9085
+Accuracy Per Update: 0.9006
+Accuracy Per Update: 0.8939
+Accuracy Per Update: 0.8884
+Accuracy Per Update: 0.8836
+Accuracy Per Update: 0.8795
+Accuracy Per Update: 0.8759
+Accuracy Per Update: 0.8728
+Accuracy Per Update: 0.8671
+Accuracy Per Update: 0.8557
+GameData
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.4167
+Accuracy Per Update: 0.2941
+GameData
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.3750
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.6667
+Accuracy Per Update: 0.4000
+Accuracy Per Update: 0.4444
+Accuracy Per Update: 0.4667
+Accuracy Per Update: 0.3810
+Accuracy Per Update: 0.3333
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.4000
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.5333
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.4800
+Accuracy Per Update: 0.4286
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.5000
+Accuracy Per Update: 0.3333
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 0.0000
+Accuracy Per Update: 0.3333
+Accuracy Per Update: 0.4000
+Accuracy Per Update: 0.2857
+GameData
+Accuracy Per Update: 0.0000
+GameData
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 0.9833
+Accuracy Per Update: 0.9672
+GameData
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 0.9412
+Accuracy Per Update: 0.8333
+Accuracy Per Update: 0.7812
+Accuracy Per Update: 0.7805
+Accuracy Per Update: 0.7800
+Accuracy Per Update: 0.7797
+Accuracy Per Update: 0.8060
+Accuracy Per Update: 0.8026
+Accuracy Per Update: 0.8000
+Accuracy Per Update: 0.7979
+Accuracy Per Update: 0.8155
+Accuracy Per Update: 0.8304
+Accuracy Per Update: 0.8264
+Accuracy Per Update: 0.8385
+Accuracy Per Update: 0.8345
+Accuracy Per Update: 0.8311
+Accuracy Per Update: 0.8354
+Accuracy Per Update: 0.8354
+GameData
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 1.0000
+Accuracy Per Update: 0.9000
+Accuracy Per Update: 0.9474
+Accuracy Per Update: 0.9643
+Accuracy Per Update: 0.9730
+Accuracy Per Update: 0.9783
+Accuracy Per Update: 0.9818
+Accuracy Per Update: 0.9846
+Accuracy Per Update: 0.9867
+Accuracy Per Update: 0.9882
+Accuracy Per Update: 0.9895
+Accuracy Per Update: 0.9905
+Accuracy Per Update: 0.9913
+Accuracy Per Update: 0.9920
+Accuracy Per Update: 0.9926
+Accuracy Per Update: 0.9931
+Accuracy Per Update: 0.9935
+Accuracy Per Update: 0.9939
+Accuracy Per Update: 0.9943
+Accuracy Per Update: 0.9946
+Accuracy Per Update: 0.9949

@@ -121,7 +121,7 @@ class Game:
         flags_x = padding  # Position of the flags counter
         timer_x = self.WIDTH - padding - 150  # Position of the timer
         menu_x = self.WIDTH // 2.5  # Position of the menu button
-
+        
         # Draw timer
         timer_text = font.render(f"Time: {timer}s", True, self.BLACK)
         screen.blit(timer_text, (timer_x, 10))
@@ -181,9 +181,15 @@ class Game:
                     cell["revealed"] = True
                     
     def highlight_probable_mines(self,screen, probable_mines, x_offset, y_offset, CELL_SIZE):
-        """
-        Highlights cells that are probable mines in blue.
-        """
+        #Highlights cells that are probable mines in blue.
         for r, c in probable_mines:
             x, y = c * self.CELL_SIZE + x_offset, r * self.CELL_SIZE + y_offset
             pygame.draw.rect(screen, (255, 0, 0), (x, y, self.CELL_SIZE, self.CELL_SIZE), 3)
+            
+    def initialize_game(self, rows, cols, num_mines):
+       #Resets the game to its initial state.
+    
+        self.rows = rows
+        self.cols = cols
+        self.num_mines = num_mines
+        self.grid = self.create_grid(rows, cols, num_mines)

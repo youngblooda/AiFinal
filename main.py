@@ -1,5 +1,5 @@
 from Game import Game
-from AISolver import AISolver
+from AISolver import AISolver 
 import pygame
 
 # Initialize pygame
@@ -11,7 +11,7 @@ WHITE = (255, 255, 255)
 GRAY = (192, 192, 192)
 BLACK = (0, 0, 0)
 FPS = 60
-
+        
 def main():
     game_instance = Game()  # Instantiate the Game class
     running = True
@@ -19,8 +19,8 @@ def main():
     # Main loop
     while running:
         grid_size, num_mines = game_instance.main_menu()
-      
-        
+
+     
         # Adjust screen size and grid dimensions based on selected difficulty
         global WIDTH, HEIGHT, CELL_SIZE
         CELL_SIZE = 30
@@ -57,17 +57,20 @@ def main():
         in_game = True
         
         def check_win_condition():
-            """
-            Checks if the game is won by verifying that all non-mine cells are revealed.
-            """
+            #Checks if the game is won by verifying that all non-mine cells are revealed.
             for row in grid:
                 for cell in row:
                     if not cell["mine"] and not cell["revealed"]:
                         return False  # A non-mine cell is not revealed
             return True
-
+        with open("accuracy_data.txt", "a") as file:
+            file.write("GameData\n")
         while in_game:
+            
+            
+            
             screen.fill(WHITE)
+            
 
             # Calculate elapsed time since game start
             elapsed_time = (pygame.time.get_ticks() - start_time) // 1000
@@ -83,8 +86,6 @@ def main():
             pygame.draw.rect(screen, GRAY, ai_button_rect.inflate(20, 10))
             screen.blit(ai_button_text, ai_button_rect)
         
-            
-            
             
             if ai_solver_active:
                 x_offset = (WIDTH - (cols * CELL_SIZE)) // 2
@@ -104,7 +105,8 @@ def main():
                     # Handle menu button click
                     if menu_rect.collidepoint(x, y):
                         in_game = False
-
+                        
+                        
                     # Handle AI Solver button click
                     elif ai_button_rect.collidepoint(x, y):
                         ai_solver_active = not ai_solver_active  # Toggle AI solver
@@ -143,21 +145,27 @@ def main():
                                 moves = solver.suggest_moves()
                                 probable_mines = moves["mine_cells"]
                                 
+                            actual_mines = [(r, c) for r in range(rows) for c in range(cols) if grid[r][c]["mine"]]
+                            accuracy = solver.calculate_accuracy(actual_mines, probable_mines)
+                            
+                            solver.save_accuracy_to_file()
                             # Check for win condition
                             if check_win_condition():
                                 game_won = True
-                                if (pygame.time.get_ticks() - loss_start_time) >= 10000:
-                                    in_game = False
+                                in_game = False
                                   # Exit the game loop
 
             if game_over:
+
                 if (pygame.time.get_ticks() - loss_start_time) >= 10000:
                     in_game = False
             if game_won:
+            
                 print("You win!")
             
             pygame.display.flip()
             clock.tick(FPS)
-
+            
 if __name__ == "__main__":
     main()
+    #entry point
